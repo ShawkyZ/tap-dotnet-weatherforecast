@@ -35,3 +35,5 @@ app.UseFileServer(new FileServerOptions
 
 app.MapControllers();
 app.Run();
+
+public partial class Program { }
