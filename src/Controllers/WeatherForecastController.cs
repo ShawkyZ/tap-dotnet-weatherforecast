@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Tanzu.WeatherForecast.Options;
 
 namespace Tanzu.WeatherForecast.Controllers;
 
@@ -8,21 +9,17 @@ namespace Tanzu.WeatherForecast.Controllers;
 public class WeatherForecastController : ControllerBase
 {
     private readonly IOptions<WeatherOptions> _weatherOptions;
-
+    private readonly ILogger<WeatherForecastController> _logger;
+    
     public WeatherForecastController(ILogger<WeatherForecastController> logger, IOptions<WeatherOptions> weatherOptions)
     {
         _logger = logger;
         _weatherOptions = weatherOptions;
     }
 
-    private static readonly string[] Summaries = new[]
-    {
+    private static readonly string[] Summaries = {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
-
-    private readonly ILogger<WeatherForecastController> _logger;
-
-
     
     [HttpGet("option")]
     public string GetOptions()

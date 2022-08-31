@@ -1,5 +1,5 @@
 using Microsoft.Extensions.FileProviders;
-using Tanzu.WeatherForecast;
+using Tanzu.WeatherForecast.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 

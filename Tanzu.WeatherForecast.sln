@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tanzu.WeatherForecast", "src\Tanzu.WeatherForecast.csproj", "{AC7B9151-36BA-4997-BA76-128C1B3CF3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CC1E9E5-6C59-4107-97FC-1B3CAE82B1A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AC4E47DC-BC02-4846-A309-AA598BED2135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tanzu.WeatherForecast.Tests", "tests\Tanzu.WeatherForecast.Tests\Tanzu.WeatherForecast.Tests.csproj", "{9243636B-ED22-4D4C-B51C-5194A5BD9C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC7B9151-36BA-4997-BA76-128C1B3CF3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7B9151-36BA-4997-BA76-128C1B3CF3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7B9151-36BA-4997-BA76-128C1B3CF3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7B9151-36BA-4997-BA76-128C1B3CF3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9243636B-ED22-4D4C-B51C-5194A5BD9C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9243636B-ED22-4D4C-B51C-5194A5BD9C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9243636B-ED22-4D4C-B51C-5194A5BD9C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9243636B-ED22-4D4C-B51C-5194A5BD9C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC7B9151-36BA-4997-BA76-128C1B3CF3EC} = {7CC1E9E5-6C59-4107-97FC-1B3CAE82B1A8}
+		{9243636B-ED22-4D4C-B51C-5194A5BD9C37} = {AC4E47DC-BC02-4846-A309-AA598BED2135}
+	EndGlobalSection
+EndGlobal
