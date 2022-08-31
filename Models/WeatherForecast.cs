@@ -1,4 +1,4 @@
-namespace Tanzu.WeatherForecast;
+namespace Tanzu.WeatherForecast.Models;
 
 public class WeatherForecast
 {

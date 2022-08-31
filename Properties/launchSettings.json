@@ -1,13 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "tanzu-csharp-weatherforecast": {
+    "Tanzu.Weatherforecast": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
       "launchUrl": "http://localhost:8080/",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Weather__Name": "Test Weather"
       }
     }
   }
