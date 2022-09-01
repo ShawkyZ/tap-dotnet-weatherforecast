@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tanzu-csharp-weatherforecast
+  name: tap-dotnet-weatherforecast
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tanzu-csharp-weatherforecast"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tap-dotnet-weatherforecast"
 spec:
   type: service
   lifecycle: experimental
