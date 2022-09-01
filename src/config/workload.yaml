@@ -8,6 +8,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/sample-accelerators/csharp-weatherforecast
+      url: https://github.com/ShawkyZ/tap-dotnet-weatherforecast
       ref:
         branch: main
