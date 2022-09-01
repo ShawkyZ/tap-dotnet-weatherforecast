@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Microsoft.Extensions.Options;
 using Moq;
 using Tanzu.WeatherForecast.Controllers;
@@ -5,6 +6,7 @@ using Tanzu.WeatherForecast.Options;
 
 namespace Tanzu.WeatherForecast.Tests;
 
+[Trait("Category", "SmokeTest")]
 public class UnitTests
 {
     private readonly ILogger<WeatherForecastController> _mockedLogger = new Mock<ILogger<WeatherForecastController>>().Object;

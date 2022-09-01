@@ -1,5 +1,6 @@
 namespace Tanzu.WeatherForecast.Tests;
 
+[Trait("Category", "IntegrationTest")]
 public class IntegrationTests : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> _factory;
